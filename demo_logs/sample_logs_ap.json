@@ -1,0 +1,62 @@
+[
+  {
+    "raw": {
+      "time": 1768473996400,
+      "log": "lvl=info reqID=kL1m-N2O orgID=org-ap-001 http=completed status=200 bytes=4096 time=145.223ms GET=/api/v1/products/catalog from=203.0.113.50"
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996401,
+      "log": "lvl=error reqID=lM2n-O3P orgID=org-ap-002 http=completed status=502 bytes=128 time=30000.000ms GET=/api/v1/auth Msg=\"upstream connection refused - auth-ap-southeast\""
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996402,
+      "log": "lvl=warn reqID=mN3o-P4Q orgID=org-ap-001 http=completed status=429 bytes=64 time=3.556ms POST=/api/v1/uploads Msg=\"traffic spike detected from 203.0.113.0/24\""
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996403,
+      "log": "lvl=info reqID=nO4p-Q5R orgID=org-ap-003 http=completed status=201 bytes=512 time=67.889ms POST=/api/v1/orders from=203.0.114.100"
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996404,
+      "log": "lvl=error reqID=oP5q-R6S orgID=org-ap-002 http=completed status=500 bytes=256 time=2345.667ms POST=/api/v1/checkout Msg=\"payment gateway error - transaction rolled back\""
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996405,
+      "log": "lvl=info reqID=pQ6r-S7T orgID=org-ap-001 http=completed status=200 bytes=16384 time=345.112ms GET=/api/v1/reports/inventory from=203.0.115.75"
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996406,
+      "log": "lvl=error reqID=qR7s-T8U orgID=org-ap-003 http=completed status=401 bytes=59 time=1.223ms GET=/api/v1/admin/settings Msg=\"insufficient permissions - admin role required\""
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996407,
+      "log": "lvl=info reqID=rS8t-U9V orgID=org-ap-002 http=completed status=200 bytes=2048 time=89.445ms GET=/api/v1/cdn/status Msg=\"cache purge completed - 847 objects invalidated\""
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996408,
+      "log": "lvl=warn reqID=sT9u-V0W orgID=org-ap-001 http=completed status=503 bytes=89 time=15000.000ms GET=/api/v1/search Msg=\"auto-scaling triggered: 3 -> 5 instances\""
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996409,
+      "log": "lvl=error reqID=tU0v-W1X orgID=org-ap-003 http=completed status=500 bytes=178 time=567.889ms POST=/api/v1/webhooks Msg=\"callback delivery failed - retrying in 30s\""
+    }
+  }
+]

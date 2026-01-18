@@ -1,0 +1,62 @@
+[
+  {
+    "raw": {
+      "time": 1768473996390,
+      "log": "lvl=info reqID=aB1c-D2E orgID=org-eu-001 http=completed status=200 bytes=2048 time=78.445ms GET=/api/v1/gdpr/compliance from=10.100.20.50"
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996391,
+      "log": "lvl=error reqID=bC2d-E3F orgID=org-eu-002 http=completed status=500 bytes=156 time=5234.889ms POST=/api/v1/payments Msg=\"stripe gateway timeout - provider: stripe-eu\""
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996392,
+      "log": "lvl=warn reqID=cD3e-F4G orgID=org-eu-001 http=completed status=401 bytes=64 time=2.112ms GET=/api/v1/subscriptions Msg=\"GDPR consent required\""
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996393,
+      "log": "lvl=info reqID=dE4f-G5H orgID=org-eu-003 http=completed status=201 bytes=512 time=123.667ms POST=/api/v1/customers/export from=10.100.21.100"
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996394,
+      "log": "lvl=error reqID=eF5g-H6I orgID=org-eu-002 http=completed status=503 bytes=89 time=30000.000ms GET=/api/v1/inventory Msg=\"database replica lag exceeded threshold\""
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996395,
+      "log": "lvl=info reqID=fG6h-I7J orgID=org-eu-001 http=completed status=200 bytes=8192 time=234.556ms GET=/api/v1/analytics/dashboard from=10.100.22.75"
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996396,
+      "log": "lvl=error reqID=gH7i-J8K orgID=org-eu-003 http=completed status=401 bytes=59 time=1.445ms GET=/api/v1/auth/refresh Msg=\"token expired - re-authentication required\""
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996397,
+      "log": "lvl=warn reqID=hI8j-K9L orgID=org-eu-002 http=completed status=429 bytes=78 time=8.223ms POST=/api/v1/notifications Msg=\"rate limit: 100 requests/min exceeded\""
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996398,
+      "log": "lvl=info reqID=iJ9k-L0M orgID=org-eu-001 http=completed status=200 bytes=1024 time=56.778ms GET=/api/v1/users/profile from=10.100.23.200"
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996399,
+      "log": "lvl=error reqID=jK0l-M1N orgID=org-eu-003 http=completed status=500 bytes=256 time=890.123ms POST=/api/v1/orders Msg=\"payment processing failed - retry recommended\""
+    }
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "raw": {
+      "time": 1768473996379,
+      "log": "lvl=info reqID=nAb8-Z5T orgID=org-12345 http=completed status=401 bytes=59 time=1.121478ms PUT=/api/v1/users from=10.222.34.224"
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996380,
+      "log": "lvl=error reqID=xK9m-P2Q orgID=org-12345 http=completed status=500 bytes=128 time=245.332ms GET=/api/v1/orders Msg=\"database connection timeout\""
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996381,
+      "log": "lvl=info reqID=mT4n-W8R orgID=org-67890 http=completed status=200 bytes=1024 time=45.892ms GET=/api/v1/products from=10.222.35.100"
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996382,
+      "log": "lvl=warn reqID=pL7k-J3S orgID=org-12345 http=completed status=429 bytes=64 time=12.445ms POST=/api/v1/upload Msg=\"rate limit exceeded\""
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996383,
+      "log": "lvl=error reqID=qN2m-H6T orgID=org-54321 http=completed status=503 bytes=89 time=30000.000ms GET=/api/v1/inventory Msg=\"upstream service unavailable\""
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996384,
+      "log": "lvl=info reqID=rP5n-K9U orgID=org-67890 http=completed status=201 bytes=256 time=89.123ms POST=/api/v1/customers from=10.222.34.50"
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996385,
+      "log": "lvl=error reqID=sQ8m-L2V orgID=org-12345 http=completed status=401 bytes=59 time=0.892ms GET=/api/v1/auth/token Msg=\"invalid or expired token\""
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996386,
+      "log": "lvl=info reqID=tR1n-M5W orgID=org-11111 http=completed status=200 bytes=4096 time=156.778ms GET=/api/v1/reports/daily from=10.222.36.200"
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996387,
+      "log": "lvl=error reqID=uS4m-N8X orgID=org-54321 http=completed status=500 bytes=128 time=1245.667ms POST=/api/v1/payments Msg=\"payment gateway timeout\""
+    }
+  },
+  {
+    "raw": {
+      "time": 1768473996388,
+      "log": "lvl=warn reqID=vT7n-P1Y orgID=org-67890 http=completed status=404 bytes=45 time=5.234ms GET=/api/v1/users/unknown-id Msg=\"resource not found\""
+    }
+  }
+]
