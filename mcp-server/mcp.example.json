@@ -1,0 +1,30 @@
+{
+  "servers": {
+    "logmcp": {
+      "type": "http",
+      "url": "http://localhost:8080/mcp"
+    },
+    "github": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "YOUR_GITHUB_TOKEN"
+      }
+    },
+    "atlassian": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-atlassian"
+      ],
+      "env": {
+        "ATLASSIAN_API_TOKEN": "YOUR_ATLASSIAN_TOKEN",
+        "ATLASSIAN_EMAIL": "your.email@company.com",
+        "ATLASSIAN_DOMAIN": "your-company.atlassian.net"
+      }
+    }
+  }
+}
