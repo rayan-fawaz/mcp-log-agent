@@ -2,10 +2,6 @@
 
 > **An MCP server that gives AI agents the power to query, analyze, and act on your application logs.**
 
-[![Go Version](https://img.shields.io/badge/Go-1.21+-00ADD8?style=flat&logo=go)](https://golang.org)
-[![MCP](https://img.shields.io/badge/MCP-Compatible-blue?style=flat)](https://modelcontextprotocol.io)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
 LogMCP connects AI assistants (GitHub Copilot, Claude, etc.) to your log data through the [Model Context Protocol](https://modelcontextprotocol.io). Ask questions in natural language, get instant answers, and automate incident response workflows.
 
 ![Demo](https://via.placeholder.com/800x400?text=VS+Code+Agent+Mode+Demo)
@@ -326,24 +322,6 @@ The log server exposes these REST endpoints:
 | GET | `/time/epoch?year=2026&month=1&day=18&time=10:30:00` | Convert to epoch |
 | GET | `/time/readable?epoch_ms=1768473996379` | Convert to readable |
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Areas where help is needed:
-
-- [ ] **Log source adapters** - Elasticsearch, CloudWatch, Datadog, Splunk
-- [ ] **Additional MCP tools** - Log streaming, alerts, metrics
-- [ ] **UI dashboard** - Web interface for log visualization
-- [ ] **Documentation** - More examples and tutorials
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
----
-
-## 📜 License
-
-MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
